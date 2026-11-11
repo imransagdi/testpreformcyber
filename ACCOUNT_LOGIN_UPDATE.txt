@@ -1,0 +1,11 @@
+CYBER//NET ACCOUNT LOGIN UPDATE
+
+The login screen now includes:
+- LOGIN: sign in with an existing account.
+- CREATE ACCOUNT: register a new account.
+- Player name is optional; if left blank, the account username is used.
+- ENTER NETWORK is available after successful authentication.
+
+Accounts are stored through the configured DATABASE_URL (Neon) when set.
+Keep DATABASE_URL configured on Render and in your local .env file.
+Do not share your database connection string or password.
